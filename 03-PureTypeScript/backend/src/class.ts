@@ -44,6 +44,8 @@ class User {
     }
 }
 
+
+// Classes can do Single Inheritance but not multi Intheritance
 class SubUser extends User {
     isFamily: boolean = true
     changeCourseCount(){

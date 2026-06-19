@@ -83,6 +83,7 @@ const u : User = {
 }
 
 //---------------- Extends
+// Interface can do Multi Inheritance
 interface A {a: string}
 interface B {b: string}
 
