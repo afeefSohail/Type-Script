@@ -28,7 +28,15 @@ Frontend: Vite + TypeScript
 Backend: Node.js + TypeScript
 
 Project/ 
-|── backend/ │     ├── src/ │     ├── dist/ │     ├── tsconfig.json │     └── package.json|── frontend/ │     ├── index.html │     └── package.json |── node_modules/ ← only one, shared between frontend and backend |── package-lock.json ← only one, shared between frontend and backend
+|── backend/ │     
+├── src/ │     
+├── dist/ │     
+├── tsconfig.json 
+│     └── package.json
+|── frontend/ 
+│     ├── index.html 
+│     └── package.json 
+|── node_modules/ ← only one, shared between frontend and backend |── package-lock.json ← only one, shared between frontend and backend
 |── package.json ← root
 Project/backend/package.json => to run the backend"scripts": {
     "dev": "tsx watch src/index.ts",
