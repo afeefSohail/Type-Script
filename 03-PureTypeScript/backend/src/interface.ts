@@ -57,6 +57,7 @@ const machine: TeamMachine = {
 
 //------------ Signature Interface
 interface ChaiRatings {
+    //key   : string : value (number)
     [flavour: string]: number
 }
 
