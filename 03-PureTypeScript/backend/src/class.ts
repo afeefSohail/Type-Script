@@ -12,7 +12,7 @@ import "./objectTypeChecking.js"
 //     }
 // }
 
-// An Other way to create properties od class 
+// An Other way to create properties of class 
 class User {
     //private _coursecount = 1 //not accesiable out side of this class even in case inheritance
     protected _coursecount = 1 //only accesiable inside of this class or inherited class
@@ -24,11 +24,11 @@ class User {
     }
 
     private deleteUserToken() {
-        console.log("${this.name} session token deleted." )
+        console.log(`${this.name} session token deleted.` )
     }
 
     get AppleEmail(): string {
-        return "apple${this.email}" 
+        return `apple${this.email}`
     }
 
     get courseCount(): number {

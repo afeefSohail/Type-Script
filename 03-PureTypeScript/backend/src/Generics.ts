@@ -46,8 +46,7 @@ const getMoreSearchProducts = <T,>(products: T[]): T[] => {
     return products
 }
 
-// Muklti Value Return Generics function
-
+// Multi Value Return Generics function
 interface Database {
     connection: string,
     username: string,

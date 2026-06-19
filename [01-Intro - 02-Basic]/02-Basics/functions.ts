@@ -33,8 +33,8 @@ const getHello = (s: String): String => {
 const heros = ["Thor", "Spider Man", "Iron Man"]
 //const heros = [1, 2, 3]
 
-heros.map((hero): String => { return "${hero} is hero." })
-heros.map(hero => { return "${hero} is hero." })
+heros.map((hero): String => { return `${hero} is hero.` })
+heros.map(hero => { return `${hero} is hero.` })
 
 //Explicitly declaring Void Function
 function consoleError(errorMsg: String): void {
