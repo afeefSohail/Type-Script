@@ -3,7 +3,8 @@ Type Script Learning
 Type Script BackEnd Setup Guid:
 
 https://www.typescriptlang.org/docs/handbook/type-compatibility.html
-TypeScript Full Course – freeCodeCampTypescript Course in 1 Shot in Hindi => https://www.youtube.com/watch?v=kvP6hDXWy88
+# Typescript Course in 1 Shot in Hindi => https://www.youtube.com/watch?v=kvP6hDXWy88
+# Learn TypeScript – Full Tutorial – freeCodeCamp => https://www.youtube.com/watch?v=30LWjhZzg50&pp=ygUXdHlwZXNjcmlwdCBmcmVlY29kZWNhbXA%3D
 
 -------------------------------- Node.js + TypeScript project
 tsc —init => (create tsconfig.json file)
