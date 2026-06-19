@@ -1,5 +1,5 @@
-import "./abstractClass.js"
-import "./interface.js"
+import "./AbstractClass.js"
+import "./Interface.js"
 import "./objectTypeChecking.js"
 // class User {
 //     email: string
